@@ -1,0 +1,53 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+h1 {
+  font-size: 10vw;
+  line-height: 1;
+  font-weight: 600;
+  opacity: 0.7;
+  margin-left: 2.5vw;
+  background-image: linear-gradient(
+    43deg,
+    #52fa35 0%,
+    #50c8c4 46%,
+    #709bff 100%
+  );
+  background-clip: text;
+  color: transparent;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: black;
+  color: white;
+}
+h1 {
+  opacity: 1;
+  font-size: 5vw;
+  margin: 5vw 0;
+}
+aside ul li {
+  margin: 2vw;
+  font-size: 2vw;
+  list-style: circle;
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  h1 {
+    font-size: 5vh;
+    margin: 5vh 0;
+  }
+
+  aside ul li {
+    margin: 2vh;
+    font-size: 2vh;
+  }
+}
